@@ -1,0 +1,7 @@
+C:\Users\Daniela\git\finalsproject\finalsproject\obj\Debug\finalsproject.csproj.AssemblyReference.cache
+C:\Users\Daniela\git\finalsproject\finalsproject\obj\Debug\finalsproject.csproj.CoreCompileInputs.cache
+C:\Users\Daniela\git\finalsproject\finalsproject\bin\Debug\finalsproject.exe.config
+C:\Users\Daniela\git\finalsproject\finalsproject\bin\Debug\finalsproject.exe
+C:\Users\Daniela\git\finalsproject\finalsproject\bin\Debug\finalsproject.pdb
+C:\Users\Daniela\git\finalsproject\finalsproject\obj\Debug\finalsproject.exe
+C:\Users\Daniela\git\finalsproject\finalsproject\obj\Debug\finalsproject.pdb
