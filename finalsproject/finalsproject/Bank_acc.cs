@@ -27,11 +27,9 @@ namespace finalsproject
 	    public double loan;
 	    public double loanInterestRate;
 	    public double dailyLimit;
-        public string cardNumber;
-        public int pin;
 	    public AccTypeEnum accType;
 	    
-        public Bank_acc(string AccID, string AccNumber, string Holder, int HolderAge, bool HolderParentalControl, string HolderEmail, string Password, string HolderPhone, double Balance, double Loan, double LoanInterestRate, double DailyLimit, string CardNumber, int Pin, int AccType)
+        public Bank_acc(string AccID, string AccNumber, string Holder, int HolderAge, bool HolderParentalControl, string HolderEmail, string Password, string HolderPhone, double Balance, double Loan, double LoanInterestRate, double DailyLimit, int AccType)
         {
             accID = AccID;
             accNumber = AccNumber;
@@ -45,11 +43,18 @@ namespace finalsproject
             loan = Loan;
             loanInterestRate = LoanInterestRate;
             dailyLimit = DailyLimit;
-            cardNumber = CardNumber;
-            pin = Pin;
             accType = (AccTypeEnum)AccType;
         }
+
+        //add account(holder, age, mail, phone, password), set up limits and parental control - use accType
+
+        //transfer money from one account to another through accNumber, use balance
         
+        //get into an account (accID,), email/phone verification mby???
+
+        //get info abt an acc w a password verification -> work with txt???
+
+        //setting up, deducing loans
 
     }
 }
