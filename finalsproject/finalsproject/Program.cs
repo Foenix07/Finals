@@ -10,30 +10,12 @@ namespace finalsproject
     {
         static void Main(string[] args)
         {
-            AccTypeEnum stav;
-            switch(Console.ReadLine())
-            {
-                case "Bezny":
-                    {
-                        stav = AccTypeEnum.Bezny;
-                        break;
-                    }
-                case "Detsky":
-                    {
-                        stav = AccTypeEnum.Detsky;
-                        break;
-                    }
-                default:
-                    {
-                        stav = AccTypeEnum.Bezny;
-                        break;
-                    }
-
-            }
-            Bank_acc bankacc1 = new Bank_acc("ahoj", "1234567", "Dani", 18, true, "d.d@gmail.com", "password", "12345678", 1098.345, 12345.345678, 5.7, 50000, "1234567898765432", 2353, stav);
+            string acctype = Console.ReadLine();
+            Bank_acc bankacc1 = new Bank_acc("ahoj", "1234567", "Dani", 18, true, "d.d@gmail.com", "password", "12345678", 1098.345, 12345.345678, 5.7, 50000, AccType: int.Parse(acctype));
             Console.WriteLine(bankacc1.accType);
+            Console.WriteLine("Hello World!");
             Console.ReadKey();
-
+            
         }
     }
 }
