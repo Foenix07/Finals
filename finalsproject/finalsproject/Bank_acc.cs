@@ -47,11 +47,11 @@ namespace finalsproject
             accType = (AccTypeEnum)AccType;
         }
 
-        public void getthingies(object writer)
+        public void GetThingies(object writer)
         {
-            foreach (var item:PropertyInfo in writer.GetType().GetProperties())
+            foreach (var item in writer.GetType().GetProperties())
             {
-                Console.WriteLine(item.Name());
+                Console.WriteLine(item.Name);
                 Console.WriteLine(item.GetValue(writer));
             }
         }
