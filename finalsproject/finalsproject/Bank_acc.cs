@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Reflection;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -44,6 +45,15 @@ namespace finalsproject
             loanInterestRate = LoanInterestRate;
             dailyLimit = DailyLimit;
             accType = (AccTypeEnum)AccType;
+        }
+
+        public void getthingies(object writer)
+        {
+            foreach (var item:PropertyInfo in writer.GetType().GetProperties())
+            {
+                Console.WriteLine(item.Name());
+                Console.WriteLine(item.GetValue(writer));
+            }
         }
 
         //add account(holder, age, mail, phone, password), set up limits and parental control - use accType
