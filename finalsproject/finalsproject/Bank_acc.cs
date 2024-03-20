@@ -56,7 +56,11 @@ namespace finalsproject
             }
         }
 
+<<<<<<< HEAD
         //add account (holder, age, mail, phone, password), set up limits and parental control - use accType
+=======
+        //add account(holder, age, mail, phone, password), set up limits and parental control - use accType
+>>>>>>> 97dc6c63d9ab80905f4c3d867aa9e3015716b381
 
         //transfer money from one account to another through accNumber, use balance
         
