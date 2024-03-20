@@ -16,20 +16,20 @@ namespace finalsproject
 
     internal class Bank_acc
     { 
-        public string accID;
-        public string accNumber;
-        public string holder;
-        public int holderAge;
-        public bool holderParentalControl;
-        public string holderEmail;
-        public string password;
-        public string holderPhone;
-	    public double balance;
-	    public double loan;
-	    public double loanInterestRate;
-	    public double dailyLimit;
-	    public AccTypeEnum accType;
-	    
+        public string accID { get; set; }
+        public string accNumber { get; set; }
+        public string holder { get; set; }
+        public int holderAge { get; set; }
+        public bool holderParentalControl { get; set; }
+        public string holderEmail { get; set; }
+        public string password { get; set; }
+        public string holderPhone { get; set; }
+        public double balance { get; set; }
+        public double loan { get; set; }
+        public double loanInterestRate { get; set; }
+        public double dailyLimit { get; set; }
+        public AccTypeEnum accType { get; set; }
+
         public Bank_acc(string AccID, string AccNumber, string Holder, int HolderAge, bool HolderParentalControl, string HolderEmail, string Password, string HolderPhone, double Balance, double Loan, double LoanInterestRate, double DailyLimit, int AccType)
         {
             accID = AccID;
@@ -51,7 +51,7 @@ namespace finalsproject
         {
             foreach (var item in writer.GetType().GetProperties())
             {
-                Console.WriteLine(item.Name);
+                Console.Write(item.Name + ": ");
                 Console.WriteLine(item.GetValue(writer));
             }
         }
