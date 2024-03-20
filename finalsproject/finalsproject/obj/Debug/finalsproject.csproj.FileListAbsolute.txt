@@ -5,3 +5,10 @@ C:\Users\Daniela\git\finalsproject\finalsproject\bin\Debug\finalsproject.exe
 C:\Users\Daniela\git\finalsproject\finalsproject\bin\Debug\finalsproject.pdb
 C:\Users\Daniela\git\finalsproject\finalsproject\obj\Debug\finalsproject.exe
 C:\Users\Daniela\git\finalsproject\finalsproject\obj\Debug\finalsproject.pdb
+N:\Daniela _Suchánková\c sharp\Finals\finalsproject\finalsproject\obj\Debug\finalsproject.csproj.AssemblyReference.cache
+N:\Daniela _Suchánková\c sharp\Finals\finalsproject\finalsproject\obj\Debug\finalsproject.csproj.CoreCompileInputs.cache
+N:\Daniela _Suchánková\c sharp\Finals\finalsproject\finalsproject\obj\Debug\finalsproject.exe
+N:\Daniela _Suchánková\c sharp\Finals\finalsproject\finalsproject\obj\Debug\finalsproject.pdb
+N:\Daniela _Suchánková\c sharp\Finals\finalsproject\finalsproject\bin\Debug\finalsproject.exe.config
+N:\Daniela _Suchánková\c sharp\Finals\finalsproject\finalsproject\bin\Debug\finalsproject.exe
+N:\Daniela _Suchánková\c sharp\Finals\finalsproject\finalsproject\bin\Debug\finalsproject.pdb
