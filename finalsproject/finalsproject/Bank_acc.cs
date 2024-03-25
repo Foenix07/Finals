@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace finalsproject
 {
+    //enum declaration
     enum AccTypeEnum
     {
         Bezny,
@@ -14,6 +15,7 @@ namespace finalsproject
         Sporici,
     }
 
+    //class properties
     internal class Bank_acc
     { 
         public string accID { get; set; }
@@ -30,6 +32,8 @@ namespace finalsproject
         public double dailyLimit { get; set; }
         public AccTypeEnum accType { get; set; }
 
+
+        //constructor
         public Bank_acc(string AccID, string AccNumber, string Holder, int HolderAge, bool HolderParentalControl, string HolderEmail, string Password, string HolderPhone, double Balance, double Loan, double LoanInterestRate, double DailyLimit, int AccType)
         {
             this.accID = AccID;
@@ -47,6 +51,7 @@ namespace finalsproject
             this.accType = (AccTypeEnum)AccType;
         }
 
+        //a method to show info about each instance of the Bank_acc class
         public void GetThingies(object writer)
         {
             foreach (var item in writer.GetType().GetProperties())

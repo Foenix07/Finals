@@ -11,11 +11,13 @@ namespace finalsproject
     {
         static void Main(string[] args)
         {
-            string acctype = Console.ReadLine();
-            Bank_acc bankacc1 = new Bank_acc("ahoj", "1234567", "Dani", 18, true, "d.d@gmail.com", "password", "12345678", 1098.345, 12345.345678, 5.7, 50000, AccType: int.Parse(acctype));
-            bankacc1.GetThingies(bankacc1);
+            Bank banka = new Bank();
+            banka.MakeAcc();
             Console.ReadKey();
             
+
+            //máte už účet?? blabla bla pokud ano - jméno na které je účet napsán, pokud ne možnost vytvořit účet
         }
     }
 }
+
