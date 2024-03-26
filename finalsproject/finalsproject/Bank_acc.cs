@@ -52,10 +52,12 @@ namespace finalsproject
         }
 
         //a method to show info about each instance of the Bank_acc class
-        public void GetThingies(object writer)
-        {
+        public static void GetThingies(object writer)
+        {   
+            Console.WriteLine("\n");
             foreach (var item in writer.GetType().GetProperties())
             {
+                
                 Console.Write(item.Name + ": ");
                 Console.WriteLine(item.GetValue(writer));
             }
