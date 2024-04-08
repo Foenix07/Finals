@@ -10,11 +10,13 @@ namespace finalsproject
 {
     public class Bank
     {
+        int existentBankaccountsCount = 0;
         //a new dictionary
         Dictionary<string, Bank_acc> bankaccounts = new Dictionary<string, Bank_acc>();
-        Random number = new Random();
         public void MakeAcc()
         {
+            existentBankaccountsCount += 1;
+
             Console.WriteLine("This is going to be your new bank account, please give us all of the requested information.");
             
             //type of account (enum)
@@ -22,43 +24,55 @@ namespace finalsproject
             string accType = Console.ReadLine();
             
             //account ID
-            string accID = Convert.ToString( Convert.ToInt32(accType) + (1001 + bankaccounts.Count()));
+            string accID = Convert.ToString(Convert.ToInt32(accType) + Convert.ToString(1001 + existentBankaccountsCount));
             
             //bank account number
             Console.Write("AccNumber: ");
             string accNumber = Console.ReadLine();
           
-            //full name of the accoount holder
+            //full name of the account holder
             Console.Write("Your full name: ");
             string holder = Console.ReadLine();
 
             //holder age
-            Console.Write("When were you born? (DD/MM/YYYY): ");
+            Console.Write("Holder's age: ");
             int holderAge = Convert.ToInt32(Console.ReadLine());
 
-            Console.Write("HolderParentalControl: ");
-            bool holderParentalControl = Convert.ToBoolean(Console.ReadLine());
+            //parental control
+            bool holderParentalControl;
+            if (holderAge >= 18)
+                {
+                    holderParentalControl = false;
+                }
+            else
+                {
+                    holderParentalControl = true;
+                }
 
-            Console.Write("holdermail: ");
+
+            //holders mail
+            Console.Write("Holder's e-mail: ");
             string holderEmail = Console.ReadLine();
 
-            Console.Write("password: ");
-            string password = Console.ReadLine();
-
-            Console.Write("holderphone: ");
+            //holders phone num
+            Console.Write("Holder's phone number: ");
             string holderPhone = Console.ReadLine();
 
-            Console.Write("balance: ");
-            double balance = Convert.ToDouble(Console.ReadLine());
+            //password
+            Console.Write("Set up a password: ");
+            string password = Console.ReadLine();
 
-            Console.Write("loan: ");
-            double loan = Convert.ToDouble(Console.ReadLine());
+            //balance of the account
+            double balance = 0;
 
-            Console.Write("loaninterestrate: ");
-            double loanInterestRate = Convert.ToDouble(Console.ReadLine());
+            //loan
+            double loan = 0;
 
-            Console.Write("dailyLimit: ");
-            double dailyLimit = Convert.ToDouble(Console.ReadLine());
+            //Interest rate
+            double loanInterestRate = 8;
+
+            //Daily limit
+            double dailyLimit = 2000;
 
             Bank_acc item = new Bank_acc(accID, accNumber, holder, holderAge, holderParentalControl, holderEmail, password, holderPhone, balance, loan, loanInterestRate, dailyLimit, Convert.ToInt32(accType));
             bankaccounts.Add(accID, item);
