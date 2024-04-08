@@ -64,7 +64,7 @@ namespace finalsproject
         }
 
 
-        //add account(holder, age, mail, phone, password), set up limits and parental control - use accType
+        // - DONE add account(holder, age, mail, phone, password), set up limits and parental control - use accType
 
         //transfer money from one account to another through accNumber, use balance
         
@@ -73,6 +73,8 @@ namespace finalsproject
         //get info abt an acc w a password verification -> work with txt???
 
         //setting up, deducing loans
+
+        //write out all purchases
 
     }
 }

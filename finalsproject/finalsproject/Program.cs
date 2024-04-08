@@ -13,6 +13,7 @@ namespace finalsproject
         {
             Bank banka = new Bank();
             banka.MakeAcc();
+            banka.SignIn();
             Console.ReadKey();
             
 
