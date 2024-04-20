@@ -12,3 +12,10 @@ N:\Daniela _Suchánková\c sharp\Finals\finalsproject\finalsproject\obj\Debug\fi
 N:\Daniela _Suchánková\c sharp\Finals\finalsproject\finalsproject\bin\Debug\finalsproject.exe.config
 N:\Daniela _Suchánková\c sharp\Finals\finalsproject\finalsproject\bin\Debug\finalsproject.exe
 N:\Daniela _Suchánková\c sharp\Finals\finalsproject\finalsproject\bin\Debug\finalsproject.pdb
+C:\Users\danie\Source\Repos\Foenix07\Finals\finalsproject\finalsproject\obj\Debug\finalsproject.csproj.AssemblyReference.cache
+C:\Users\danie\Source\Repos\Foenix07\Finals\finalsproject\finalsproject\obj\Debug\finalsproject.csproj.CoreCompileInputs.cache
+C:\Users\danie\Source\Repos\Foenix07\Finals\finalsproject\finalsproject\obj\Debug\finalsproject.exe
+C:\Users\danie\Source\Repos\Foenix07\Finals\finalsproject\finalsproject\obj\Debug\finalsproject.pdb
+C:\Users\danie\Source\Repos\Foenix07\Finals\finalsproject\finalsproject\bin\Debug\finalsproject.exe.config
+C:\Users\danie\Source\Repos\Foenix07\Finals\finalsproject\finalsproject\bin\Debug\finalsproject.exe
+C:\Users\danie\Source\Repos\Foenix07\Finals\finalsproject\finalsproject\bin\Debug\finalsproject.pdb

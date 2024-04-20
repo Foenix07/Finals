@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\finalsproject",
+    "\\finalsproject\\finalsproject"
   ],
-<<<<<<< HEAD
-=======
-  "SelectedNode": "\\finalsproject.sln",
->>>>>>> 97dc6c63d9ab80905f4c3d867aa9e3015716b381
+  "SelectedNode": "\\finalsproject\\finalsproject\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
