@@ -22,7 +22,6 @@ namespace finalsproject
         public string accNumber { get; set; }
         public string holder { get; set; }
         public int holderAge { get; set; }
-        public bool holderParentalControl { get; set; }
         public string holderEmail { get; set; }
         public string password {  get; set; }
         public string holderPhone { get; set; }
@@ -35,13 +34,12 @@ namespace finalsproject
        
 
         //constructor
-        public Bank_acc(string AccID, string AccNumber, string Holder, int HolderAge, bool HolderParentalControl, string HolderEmail, string Password, string HolderPhone, double Balance, double Loan, double LoanInterestRate, double DailyLimit, int AccType)
+        public Bank_acc(string AccID, string AccNumber, string Holder, int HolderAge, string HolderEmail, string Password, string HolderPhone, double Balance, double Loan, double LoanInterestRate, double DailyLimit, int AccType)
         {
             this.accID = AccID;
             this.accNumber = AccNumber;
             this.holder = Holder;
             this.holderAge = HolderAge;
-            this.holderParentalControl = HolderParentalControl;
             this.holderEmail = HolderEmail;
             this.password = Password;
             this.holderPhone = HolderPhone;
@@ -72,7 +70,7 @@ namespace finalsproject
 
         // - DONE get info abt an acc w a password verification -> work with txt???
 
-        //setting up, deducing loans
+        // - DONE setting up, deducing loans
 
         //write out all purchases -> work with text
 

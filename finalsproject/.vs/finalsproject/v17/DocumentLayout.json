@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\danie\\source\\repos\\Foenix07\\Finals\\finalsproject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{402C4285-DBDD-4B94-8194-899398A2C6A7}|finalsproject\\finalsproject.csproj|C:\\Users\\danie\\source\\repos\\Foenix07\\Finals\\finalsproject\\finalsproject\\bank_acc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{402C4285-DBDD-4B94-8194-899398A2C6A7}|finalsproject\\finalsproject.csproj|c:\\users\\danie\\source\\repos\\foenix07\\finals\\finalsproject\\finalsproject\\bank_acc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{402C4285-DBDD-4B94-8194-899398A2C6A7}|finalsproject\\finalsproject.csproj|solutionrelative:finalsproject\\bank_acc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{402C4285-DBDD-4B94-8194-899398A2C6A7}|finalsproject\\finalsproject.csproj|solutionrelative:finalsproject\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{402C4285-DBDD-4B94-8194-899398A2C6A7}|finalsproject\\finalsproject.csproj|c:\\users\\danie\\source\\repos\\foenix07\\finals\\finalsproject\\finalsproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{402C4285-DBDD-4B94-8194-899398A2C6A7}|finalsproject\\finalsproject.csproj|C:\\Users\\danie\\source\\repos\\Foenix07\\Finals\\finalsproject\\finalsproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{402C4285-DBDD-4B94-8194-899398A2C6A7}|finalsproject\\finalsproject.csproj|solutionrelative:finalsproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "finalsproject\\Bank_acc.cs",
               "ToolTip": "C:\\Users\\danie\\source\\repos\\Foenix07\\Finals\\finalsproject\\finalsproject\\Bank_acc.cs",
               "RelativeToolTip": "finalsproject\\Bank_acc.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAAAB0AAAAiAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-09T10:43:30.895Z",
               "EditorCaption": ""
@@ -45,7 +45,7 @@
               "RelativeDocumentMoniker": "finalsproject\\Bank.cs",
               "ToolTip": "C:\\Users\\danie\\source\\repos\\Foenix07\\Finals\\finalsproject\\finalsproject\\Bank.cs",
               "RelativeToolTip": "finalsproject\\Bank.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwKAAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAANMAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-09T10:43:31.748Z",
               "EditorCaption": ""
@@ -58,7 +58,7 @@
               "RelativeDocumentMoniker": "finalsproject\\Program.cs",
               "ToolTip": "C:\\Users\\danie\\source\\repos\\Foenix07\\Finals\\finalsproject\\finalsproject\\Program.cs",
               "RelativeToolTip": "finalsproject\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAXAAAA",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAQwEkAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-09T10:43:31.758Z",
               "EditorCaption": ""
